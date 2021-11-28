@@ -1,9 +1,9 @@
 import { Router } from "express";
 
-import collectionRoutes from "./collectionRoutes";
+import contractRoutes from "./contractRoutes";
 
 const router = Router();
 
-router.use("/collections", collectionRoutes);
+router.use("/contracts", contractRoutes);
 
 export default router;
