@@ -1,0 +1,6 @@
+{
+  "ext": ".js,.json",
+  "ignore": [],
+  "watch": ["src/**/*"],
+  "exec": "node --inspect -r @babel/register -r dotenv/config src/index.js"
+}
